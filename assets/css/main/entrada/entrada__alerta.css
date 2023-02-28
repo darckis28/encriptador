@@ -1,0 +1,18 @@
+.entrada__alerta{
+    color: #ea7979;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.254em;
+    letter-spacing: .21em;
+}
+@media (min-width:0) {
+    .entrada__alerta{
+        font-size: 1em; 
+    }
+}
+@media (min-width: 766px) {
+    .entrada__alerta{
+        font-size: 1.254em;
+    }
+    
+}

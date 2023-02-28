@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- cabecera -->
+    <link rel="stylesheet" href="assets/css/header/cabecera.css">
+    <link rel="stylesheet" href="assets/css/header/logos/logos.css">
+    <link rel="stylesheet" href="assets/css/header/logos/logos-1.css">
+    <link rel="stylesheet" href="assets/css/header/logos/logos-2.css">
+    <!-- navegador -->
+    <link rel="stylesheet" href="assets/css/header/nav/nav.css">
+    <link rel="stylesheet" href="assets/css/header/nav/navegador.css">
+    <link rel="stylesheet" href="assets/css/header/nav/nav__list.css">
+    <link rel="stylesheet" href="assets/css/header/nav/navegador_item.css">
+    <!-- main -->
+    <link rel="stylesheet" href="assets/css/main/contenedor-principal.css">
+    <link rel="stylesheet" href="assets/css/main/entrada/entrada.css">
+    <link rel="stylesheet" href="assets/css/main/entrada/entrada__adv.css">
+    <link rel="stylesheet" href="assets/css/main/entrada/entrada__alerta.css">
+    <link rel="stylesheet" href="assets/css/main/entrada/entrada__btn.css">
+    <link rel="stylesheet" href="assets/css/main/entrada/entrada__text.css">
+    <link rel="stylesheet" href="assets/css/main/salida/salida.css">
+    <link rel="stylesheet" href="assets/css/main/salida/salida__text.css">
+    <link rel="stylesheet" href="assets/css/main/salida/box__salida.css">
+    <link rel="stylesheet" href="assets/css/main/salida/box__img.css">
+    <link rel="stylesheet" href="assets/css/main/salida/box__msg.css">
+    <link rel="stylesheet" href="assets/css/main/salida/box__text.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logos">
+            <img class="logos__1"src="assets/img/logo.png" alt="">
+            <img class="logos__2"src="assets/img/letras.png" alt="">
+        </div>
+        <nav class="navegador">
+            <ul class="nav">
+                <li class="nav__list">
+                    <a href="https://darckis28.github.io/portafolio/" class="nav_item"> Mas proyectos</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav_item">Ver codigo</a>
+                </li>
+            </ul>  
+        </nav>
+    </header>
+    <main class="contenedor-principal">
+        <section class="entrada">
+            <textarea class="entrada__text" placeholder="Escribe un mensaje"></textarea>
+            <p class="entrada__adv"></p>
+            <div class="botones"> 
+            <button class="entrada__btn " id="encriptar">Encriptar</button>
+            <button class="entrada__btn btndif" id="desencriptar">Desencriptar</button>
+            </div> 
+            <p class="entrada__alerta" ></p>
+        </section>
+        <section class="salida">
+            <div class="box__salida">
+                <textarea class="salida__text"></textarea>
+                <button class="entrada__btn iz " id="copiar">Copiar</button>
+            </div>
+            <div class="box__msg" id="quitar">
+                <img class="box__img" src="assets/img/error-no-es-fracaso.jpg" alt="">
+                <p class="box__text">No se encontro un mensaje</p>
+            </div>
+            
+        </section>
+    </main>
+    <script src="assets/main.js"></script>
+</body>
+</html>

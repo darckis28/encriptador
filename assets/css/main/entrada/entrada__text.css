@@ -1,0 +1,24 @@
+.entrada__text{
+    display: block;
+    margin: 50px auto;
+    background: none ;
+    outline: none;
+    border: none;
+   
+    color: var(--letras);
+}
+@media (min-width:0) {
+    .entrada__text{
+        width: 80%;
+        height: 30%;
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 766px) {
+    .entrada__text{
+        width: 80%;
+        height: 50%;
+        font-size: 2em;
+    }
+    
+}

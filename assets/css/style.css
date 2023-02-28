@@ -1,0 +1,19 @@
+:root{
+    --color-fondo:#024959;
+    --color-btn:#248EA6;
+    --color-btn-dif:#1F6A73;
+    --color-shadow:#011f2667;
+    --letras:#fff;
+    --hover:#0D5B8C;
+    --fuente:'Nanum Gothic Coding', monospace;
+
+}
+body{
+    background-color: var(--color-fondo);
+    font-family: var(--fuente);
+    color:var(--letras) ;
+
+}
+textarea{
+    resize: none;
+}

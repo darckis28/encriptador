@@ -1,0 +1,11 @@
+.salida__text{
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin: 50px auto;
+    background: none ;
+    outline: none;
+    border: none;
+    font-size: 2em;
+    color: var(--letras);
+}

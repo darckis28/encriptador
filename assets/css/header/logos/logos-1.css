@@ -1,0 +1,12 @@
+
+@media (min-width:0) {
+    .logos__1{
+        width: 2em;
+    }
+}
+@media (min-width:766px) {
+    .logos__1{
+        width: 4em;
+    }
+    
+}

@@ -1,0 +1,30 @@
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.entrada__btn{
+    width: 130px ;
+    height: 40px;
+    background: var(--color-btn);
+    border: none;
+    border-radius:5px ;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: var(--fuente);
+    transition: all 0.5s ease;
+}
+.btndif{
+    background-color: var(--color-btn-dif);
+}
+.entrada__btn:hover{
+    color: var(--letras);
+    background:transparent ;
+    outline: var(--letras) 1px solid;
+}
+.iz{
+    display: block;
+    margin: 0 auto;
+}

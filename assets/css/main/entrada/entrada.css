@@ -1,0 +1,17 @@
+.entrada{
+    box-shadow: 10px 10px 18px var(--color-shadow);
+    border-radius: 10px;
+}
+@media (min-width:0) {
+    .entrada{
+        width: 320px;
+        height: 350px;
+    }
+}
+@media (min-width:766px) {
+    .entrada{
+        width: 650px;
+        height: 450px;
+    }
+    
+}

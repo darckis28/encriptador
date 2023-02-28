@@ -1,0 +1,19 @@
+.salida{
+   
+    box-shadow: 10px 10px 18px var(--color-shadow);
+    border-radius: 10px;
+    position: relative;
+}
+@media (min-width:0) {
+    .salida{
+        width: 320px;
+        height: 350px;
+    }
+}
+@media (min-width:766px) {
+    .salida{
+        width: 320px;
+        height: 450px;
+    }
+    
+}
